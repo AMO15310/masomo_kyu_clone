@@ -1,0 +1,76 @@
+.dash{
+    background-color: #eaecef;
+        height: 100vh;
+        display: flex;
+        // justify-content: center;
+        flex-direction: column;
+        .nav{
+            background-color: #fff;
+            height: 72px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .logos{
+                display: flex;
+
+                
+                img{
+                    height: 60px;
+                    margin-top: 9px;
+                    margin-left: 30px;
+                }
+                .home ,.dashbod ,.myc{
+                    display: flex;
+                    gap: 4rem;
+                    // background-color: red;
+                    width: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: sans-serif;
+                    font-size:15px;
+                    cursor: pointer;
+
+                }
+                .dashbod{
+                    font-weight: 700;
+                }
+            }
+            .texts{
+                display: flex;
+                gap: 4rem;
+                margin-right: 2rem;
+                // justify-content: center;
+                // margin-top: 1rem;
+                align-items: center;
+
+                .search{
+                    border-right: 1px solid rgb(196, 189, 189);
+                    height: 80%;
+                    span{
+                        margin-right: 20px;
+                        display: flex;
+                        // align-items: center !important;
+                        // justify-content: center;
+                        margin-top: 15px;
+
+                    }
+                }
+                .names{
+                                        border-right: 1px solid rgb(196, 194, 194);
+                                                            height: 80%;
+                                                            span{
+                                                            margin-right: 20px;
+                                                                display: flex;
+                                                                // align-items: center !important;
+                                                                // justify-content: center;
+                                                                margin-top: 15px;
+                                                            }
+                }
+                .edit{
+                                        // border-right: 1px solid rgb(190, 189, 189);
+                                                            // height: 80%;
+                }
+            }
+        }
+}
